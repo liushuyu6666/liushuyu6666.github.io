@@ -1,0 +1,331 @@
+.body{
+    display: flex;
+    flex-direction: row;
+
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 0;
+    padding: 15px 10px;
+    width: 90vw;
+    height: 900px;
+
+    background: #efefe3;
+}
+
+.body > .avatar{
+    display: flex;
+    flex-direction: column;
+
+    flex: 2;
+
+    margin-right: 20px;
+
+    box-shadow: 10px 5px 5px dimgrey;
+    height: 540px;
+}
+
+.body > .avatar > img{
+    width: 270px;
+    height: 367px;
+}
+
+.body > .avatar > .brief{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 20px 40px;
+    border-bottom: gray 1px dashed;
+
+    background: white;
+}
+
+.body > .avatar > .media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    box-sizing: border-box;
+    padding: 15px 40px;
+
+    background: white;
+}
+
+.body > .content{
+    display: flex;
+    flex-direction: column;
+
+    flex: 8;
+
+    box-sizing: border-box;
+    margin-left: 10px;
+
+}
+
+.body > .content > .nav{
+    flex: 0.7;
+    background: white;
+    color: black;
+    font-size: 80%;
+
+    box-sizing: border-box;
+
+    box-shadow: 10px 5px 5px dimgrey;
+}
+
+
+.body > .content > .nav > .nav-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    padding: 20px 10px;
+    border-left: dimgrey 1px dashed;
+}
+
+.body > .content > .nav > .nav-item:first-child{
+
+    border-left: 0;
+}
+
+.body > .content > .nav > .nav-item > .nav-link{
+    padding: 0 0 0 5px!important;
+    color: black;
+}
+
+.body > .content > .tab-content{
+    display: flex;
+    flex-direction: column;
+
+    flex: 9;
+    /*height: 90%;*/
+
+    background: white;
+
+    box-shadow: 10px 5px 5px dimgrey;
+}
+
+.content .title-area{
+
+    box-sizing: border-box;
+    padding: 7px 14px;
+    border-bottom: dimgrey 1px dashed;
+
+}
+
+.content .title{
+
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#description{
+    box-sizing: border-box;
+
+    padding: 20px 14px;
+    border-bottom: dimgrey 1px dashed;
+}
+
+.content .description-left{
+    font-size: 70%;
+    font-weight: bold;
+}
+
+.content .description-right{
+    font-size: 70%;
+}
+
+.line-height-compact{
+    line-height: 170%;
+}
+
+#experience{
+    padding: 20px 14px;
+    border-bottom: dimgrey 1px dashed;
+}
+
+#skill-bar{
+    padding: 20px 14px;
+    border-bottom: dimgrey 1px dashed;
+
+    background: lightgray;
+}
+
+#skill-bar .row{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#skill-icon{
+    padding: 20px 14px;
+}
+
+#skill-icon .skill-icon-segment{
+    display: flex;
+    flex-direction: row;
+}
+
+#skill-icon .skill-icon-segment-text{
+    margin-left: 5px;
+}
+
+#skill-icon .row{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+#story{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 20px;
+    padding: 20px 14px;
+}
+
+#story > .story-segment{
+    display: flex;
+    flex-direction: column;
+}
+
+#story > .story-segment > .story-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#story > .story-segment > .story-content > .story-content-left{
+
+    box-sizing: border-box;
+    border-right: grey 1px solid;
+    margin-right: 15px;
+
+}
+
+#story > .story-segment > .story-content > .story-content-right{
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+#story > .story-segment > .story-content > .story-content-right > .story-list{
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+
+
+.story-list-title{
+    color: black;
+    line-height: 100%;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+small{
+    font-weight: bold;
+}
+
+.story-list-description{
+    color: dimgrey;
+    font-size: 80%;
+    font-weight: 400;
+}
+
+/*#story ul.experiences {*/
+/*    padding-left: 15px;*/
+/*    margin-top: -1px;*/
+/*}*/
+/*#story ul.experiences li {*/
+/*    padding-left: 10px;*/
+/*    margin-bottom: 2.5em;*/
+/*    list-style: none;*/
+/*}*/
+
+/*#story .where {*/
+/*    font-size: 1.2857em; !* 18/16 -> 18px *!*/
+/*    font-weight: 300;*/
+/*    display: inline;*/
+/*    margin-right: 0.5em;*/
+/*}*/
+/*#story .what {*/
+/*    font-size: 0.75em; !* 12/16 -> 12px *!*/
+/*    font-weight: 700;*/
+/*    text-transform: uppercase;*/
+/*    color: #fff;*/
+/*    background-color: #444444;*/
+/*    display: inline-block;*/
+/*    padding: 0 12px;*/
+/*    margin: -5px 0.5em 0 0 !important;*/
+/*    -webkit-border-radius: 3px;*/
+/*    -moz-border-radius: 3px;*/
+/*    border-radius: 3px;*/
+/*}*/
+/*#story .what.green {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    background-color: #c4df9b;*/
+/*}*/
+/*#story .what.blue {*/
+/*    background-color: #6dcff6;*/
+/*}*/
+/*#story .what.pink {*/
+/*    background-color: #f06eaa;*/
+/*}*/
+/*#story .when {*/
+/*    color: #b9b9b9;*/
+/*    font-style: italic;*/
+/*}*/
+/*#story .description {*/
+/*    display: block;*/
+/*    margin-top: 0.5em;*/
+/*}*/
+/*!* BORDERS AND BULLETS *!*/
+
+/*#story p {*/
+/*    !*CSS reset*!*/
+/*    margin-bottom: 0;*/
+/*}*/
+
+/*#story ul.experiences li {*/
+/*    position:relative; !* so that pseudoelements are positioned relatively to their "li"s*!*/
+/*    !* use padding-bottom instead of margin-bottom.*!*/
+/*    margin-bottom: 0; !* This overrides previously specified margin-bottom *!*/
+/*    padding-bottom: 2.5em;*/
+/*}*/
+
+/*#story ul.experiences li:after {*/
+/*    !* bullets *!*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: -17px; !*adjust manually*!*/
+/*    top: 0px;*/
+/*}*/
+
+/*#story ul.experiences li:before {*/
+/*    !* lines *!*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: -16px; !* adjust manually *!*/
+/*    border-left: 1px solid grey;*/
+/*    height: 100%;*/
+/*    width: 1px;*/
+/*}*/
+
+/*#story ul.experiences li:first-child:before {*/
+/*    !* first li's line *!*/
+/*    top: 6px; !* moves the line down so that it disappears under the bullet. Adjust manually *!*/
+/*}*/
+
+/*#story ul.experiences li:last-child:before {*/
+/*    !* last li's line *!*/
+/*    height: 20px; !* shorten the line so it goes only up to the bullet. Is equal to first-child:before's top *!*/
+/*}*/
+
+
