@@ -258,6 +258,21 @@ small{
     font-weight: 400;
 }
 
+.story-list{
+    position: relative;
+}
+
+
+.story-list::before{
+    content:"";
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    background: darkslateblue;
+    border-radius: 50%;
+    left: -4px;
+}
+
 
 
 
