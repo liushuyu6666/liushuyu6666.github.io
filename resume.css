@@ -136,6 +136,17 @@
     font-weight: bold;
 }
 
+/*chinese description*/
+#chinese-description{
+    box-sizing: border-box;
+
+    padding: 20px 14px;
+    border-bottom: dimgrey 1px dashed;
+}
+
+
+/*description*/
+
 #description{
     box-sizing: border-box;
 
@@ -149,7 +160,7 @@
 }
 
 .content .description-right{
-    font-size: 70%;
+    font-size: 85%;
 }
 
 .line-height-compact{
@@ -191,7 +202,7 @@
     margin-top: 20px;
 }
 
-
+/* story part in RESUME */
 #story{
     display: flex;
     flex-direction: column;
@@ -199,7 +210,6 @@
     margin-left: 20px;
     padding: 20px 14px;
 }
-
 
 #story > .story-segment{
     display: flex;
@@ -212,16 +222,7 @@
     margin-bottom: 50px;
 }
 
-/*#story > .story-segment > .story-content > .story-content-left{*/
-
-/*    box-sizing: border-box;*/
-/*    border-right: grey 1px solid;*/
-/*    margin-right: 15px;*/
-
-/*}*/
-
 #story > .story-segment > .story-content > .story-content-right{
-
     display: flex;
     flex-direction: column;
     margin-right: 20px;
@@ -235,6 +236,46 @@
 }
 
 #story > .story-segment > .story-content > .story-content-right > .story-list:last-child{
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border-left: dimgrey 0 solid;
+}
+
+/* chinese story in RESUME */
+#chinese-story{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 20px;
+    padding: 20px 14px;
+}
+
+#chinese-story > .story-segment{
+    display: flex;
+    flex-direction: column;
+}
+
+#chinese-story > .story-segment > .story-content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+#chinese-story > .story-segment > .story-content > .story-content-right{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+#chinese-story > .story-segment > .story-content > .story-content-right > .story-list{
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border-left: dimgrey 1px solid;
+}
+
+#chinese-story > .story-segment > .story-content > .story-content-right > .story-list:last-child{
     box-sizing: border-box;
     padding-bottom: 30px;
     padding-left: 30px;
