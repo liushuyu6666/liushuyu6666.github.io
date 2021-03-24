@@ -167,6 +167,13 @@
     line-height: 170%;
 }
 
+/*chinese experience*/
+.chinese-experience{
+    padding: 20px 14px;
+    border-bottom: dimgrey 1px dashed;
+}
+
+/*experience*/
 #experience{
     padding: 20px 14px;
     border-bottom: dimgrey 1px dashed;
@@ -248,7 +255,7 @@
     flex-direction: column;
 
     margin-left: 20px;
-    padding: 20px 14px;
+    padding: 10px 14px;
 }
 
 #chinese-story > .story-segment{
@@ -259,7 +266,7 @@
 #chinese-story > .story-segment > .story-content{
     display: flex;
     flex-direction: row;
-    margin-bottom: 50px;
+    margin-bottom: 1px;
 }
 
 #chinese-story > .story-segment > .story-content > .story-content-right{
@@ -270,14 +277,14 @@
 
 #chinese-story > .story-segment > .story-content > .story-content-right > .story-list{
     box-sizing: border-box;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     padding-left: 30px;
     border-left: dimgrey 1px solid;
 }
 
 #chinese-story > .story-segment > .story-content > .story-content-right > .story-list:last-child{
     box-sizing: border-box;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     padding-left: 30px;
     border-left: dimgrey 0 solid;
 }
