@@ -1,0 +1,72 @@
+@mixin story-line-left($row) {
+  grid-area: #{$row} / 3 / #{$row + 1} / 4;
+  border-right: 1px #582f0e solid;
+}
+
+@mixin story-line-right($row) {
+  grid-area: #{$row} / 4 / #{$row + 1} / 5;
+  border-left: 1px #582f0e solid;
+}
+
+/* experience */
+.story {
+  display: grid;
+  grid-template-columns: 2fr 7fr 1fr 1fr 8fr 1fr;
+  grid-template-rows: repeat(8, 60px);
+}
+
+/* story dot */
+.story-dot {
+  position: relative;
+}
+.story-dot::before {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  background: #582f0e;
+  border-radius: 50%;
+  right: -5px;
+}
+
+// story-line
+.story-line-left-2 {
+  @include story-line-left(2);
+}
+
+.story-line-right-2 {
+  @include story-line-right(2);
+}
+
+// story-card
+@mixin story-card-left($row) {
+  padding-top: 5px;
+  grid-area: #{$row} / 2 / #{$row + 2} / 3;
+  border: 3px black solid;
+}
+
+@mixin story-card-right($row) {
+  grid-area: #{$row} / 5 / #{$row + 2} / 6;
+}
+
+.story-card-left-1 {
+  @include story-card-left(1);
+}
+
+.story-job-title {
+  font-size: 110%;
+  text-align: right;
+}
+
+.story-job-time {
+  font-size: 90%;
+  text-align: right;
+}
+
+.story-tech-stack {
+  margin-left: 5px;
+  font-size: 80%;
+  display: grid;
+  grid-template-columns: 80px repeat(auto-fit, 30px);
+  grid-template-areas: "header .";
+}
