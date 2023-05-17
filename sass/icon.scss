@@ -1,0 +1,71 @@
+/* icons */
+/* https://icon-sets.iconify.design/ */
+
+@mixin icon-properties($background-image) {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("#{$background-image}");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-typescript {
+  @include icon-properties(
+    "https://api.iconify.design/vscode-icons/file-type-typescript-official.svg?color=%23007acc&width=20&height=20"
+  );
+}
+
+.icon-github {
+  @include icon-properties("https://api.iconify.design/bi/github.svg");
+}
+
+.icon-mongodb {
+  @include icon-properties(
+    "https://api.iconify.design/devicon/mongodb-wordmark.svg"
+  );
+}
+
+.icon-jest {
+  @include icon-properties(
+    "https://api.iconify.design/vscode-icons/file-type-jest.svg"
+  );
+}
+
+.icon-vscode {
+  @include icon-properties(
+    "https://api.iconify.design/vscode-icons/file-type-vscode.svg"
+  );
+}
+
+.icon-mysql {
+  @include icon-properties("https://api.iconify.design/logos/mysql.svg");
+}
+
+.icon-json {
+  @include icon-properties(
+    "https://api.iconify.design/vscode-icons/file-type-json-official.svg"
+  );
+}
+
+.icon-reactjs {
+  @include icon-properties(
+    "https://api.iconify.design/vscode-icons/file-type-reactjs.svg"
+  );
+}
+
+.icon-springboot {
+  @include icon-properties(
+    "https://api.iconify.design/bxl/spring-boot.svg?color=%236db33f"
+  );
+}
+
+.icon-java {
+  @include icon-properties("https://api.iconify.design/logos/java.svg");
+}
+
+.icon-java {
+  @include icon-properties("https://api.iconify.design/logos/java.svg");
+}

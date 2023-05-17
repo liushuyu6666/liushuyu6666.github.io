@@ -1,0 +1,124 @@
+/* icons */
+/* https://icon-sets.iconify.design/ */
+.icon-typescript {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/vscode-icons/file-type-typescript-official.svg?color=%23007acc&width=20&height=20");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-github {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/bi/github.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-mongodb {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/devicon/mongodb-wordmark.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-jest {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/vscode-icons/file-type-jest.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-vscode {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/vscode-icons/file-type-vscode.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-mysql {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/logos/mysql.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-json {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/vscode-icons/file-type-json-official.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-reactjs {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/vscode-icons/file-type-reactjs.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-springboot {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/bxl/spring-boot.svg?color=%236db33f");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-java {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/logos/java.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-java {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/logos/java.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+/*# sourceMappingURL=icon.css.map */
