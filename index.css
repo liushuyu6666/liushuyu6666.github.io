@@ -13,13 +13,13 @@
         |
         +-- tab-pane (array)
         |   |
-        |   +-- section (array)
+        |   +---+
         |   |   |
         |   |   +-- title
         |   |   |
         |   |   +-- content
         |   |
-        |   +-- section (array)
+        |   +---+
         |       |
         |       +-- title
         |       |
@@ -28,18 +28,20 @@
         |
         +-- tab-pane (array)
             |
-            +-- section (array)
+            +---+
             |   |
             |   +-- title
             |   |
             |   +-- content
             |
-            +-- section (array)
+            +---+
                 |
                 +-- title
                 |
                 +-- content
 */
+
+
 .body{
     display: flex;
     flex-direction: column;
@@ -99,12 +101,12 @@
     box-shadow: 10px 5px 5px #583101;
 }
 
-.tab-content > .tab-pane > .section {
+.tab-content > .tab-pane {
     box-sizing: border-box;
     padding: 1px 1px;
 }
 
-.tab-content > .tab-pane > .section > .title {
+.tab-content > .tab-pane > .title {
     font-size: 100%;
     font-weight: bold;
     box-sizing: border-box;
@@ -112,19 +114,19 @@
     border-bottom: dimgrey 2px dashed;
 }
 
-.tab-content > .tab-pane > .section > .content {
+.tab-content > .tab-pane > .content {
     box-sizing: border-box;
     padding: 10px 14px;
 }
 
-.tab-content > .tab-pane > .section > .content > .paragraph {
+.tab-content > .tab-pane > .content > .paragraph {
     /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 85%;
     text-indent: 1em;
     padding-bottom: 0px;
 }
 
-/* SECTION */
+/* ABOUT ME page */
 /* basic info */
 .basic-info-title {
     font-size: 70%;
