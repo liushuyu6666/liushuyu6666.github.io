@@ -110,11 +110,44 @@
   align-self: center;
 }
 
-.icon-java {
+.icon-intellij {
   display: inline-block;
   width: 23px;
   height: 23px;
-  background: url("https://api.iconify.design/logos/java.svg");
+  background: url("https://api.iconify.design/logos/intellij-idea.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-gradle {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/cib/gradle.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-awss3 {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/logos/aws-s3.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-awsec2 {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/logos/aws-ec2.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   justify-self: center;

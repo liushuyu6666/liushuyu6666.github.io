@@ -66,6 +66,20 @@
   @include icon-properties("https://api.iconify.design/logos/java.svg");
 }
 
-.icon-java {
-  @include icon-properties("https://api.iconify.design/logos/java.svg");
+.icon-intellij {
+  @include icon-properties("https://api.iconify.design/logos/intellij-idea.svg");
 }
+
+.icon-gradle {
+  @include icon-properties("https://api.iconify.design/cib/gradle.svg");
+}
+
+.icon-awss3 {
+  @include icon-properties("https://api.iconify.design/logos/aws-s3.svg");
+}
+
+.icon-awsec2 {
+  @include icon-properties("https://api.iconify.design/logos/aws-ec2.svg");
+}
+
+
