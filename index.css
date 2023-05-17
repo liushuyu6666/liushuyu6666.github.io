@@ -49,18 +49,18 @@
     padding: 15px 15px;
     width: 90vw;
     height: auto;
-    background: #dee2e6;
+    background: #ffedd8;
 }
 
 /* .body > .nav **/
 
 .nav {
     flex: 0.7;
-    background: #adb5bd;
-    color: black;
+    background: #e7bc91;
+    color: #583101;
     font-size: 80%;
     box-sizing: border-box;
-    box-shadow: 10px 5px 5px #212529;
+    box-shadow: 10px 5px 5px #583101;
 }
 
 .nav > .nav-item {
@@ -80,12 +80,12 @@
 
 .nav > .nav-item > .nav-link{
     padding: 0 0 0 5px!important;
-    color: black;
+    color: #583101;
 }
 
 .nav > .nav-item > .nav-link.active {
-    background-color: #343a40;
-    color: #ced4da
+    background-color: #6f4518;
+    color: #ffedd8
 }
 
 /* .body > .tab-content **/
@@ -95,8 +95,8 @@
     flex-direction: column;
     flex: 9;
     /*height: 90%;*/
-    background: #adb5bd;
-    box-shadow: 10px 5px 5px #212529;
+    background: #e7bc91;
+    box-shadow: 10px 5px 5px #583101;
 }
 
 .tab-content > .tab-pane > .section {
@@ -118,10 +118,10 @@
 }
 
 .tab-content > .tab-pane > .section > .content > .paragraph {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 85%;
     text-indent: 1em;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 /* SECTION */
@@ -153,13 +153,13 @@
 }
 
 .skill-bar .progress-bar.master {
-    background-color: #343a40;
+    background-color: #574b60;
 }
 .skill-bar .progress-bar.intermediate {
-    background-color: #6c757d;
+    background-color: #7d8491;
 }
 .skill-bar .progress-bar.junior {
-    background-color: #6c757d;
+    background-color: #c0c5c1;
 }
 
 /* development tools */
@@ -184,7 +184,7 @@
     justify-content: center;
 
     border-radius: 50%;
-    border: black 1.5px solid;
+    border: #583101 1.5px solid;
 }
 
 .development-tools-segment {
@@ -246,7 +246,7 @@
 
 /* .body > .content > .nav > .nav-item > .nav-link{
     padding: 0 0 0 5px!important;
-    color: black;
+    color: #583101;
 } */
 
 /* .body > .content > .tab-content{
@@ -366,7 +366,7 @@
 }
 
 .story-list-title{
-    color: black;
+    color: #583101;
     line-height: 100%;
     font-size: 100%;
     font-weight: bold;
