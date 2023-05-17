@@ -3,7 +3,7 @@
     |
     +-- .nav 
     |   |
-    |   +-- .nav-item (array)
+    |   +-- .nav-item (about me, portfolio)
     |       |
     |       +-- icon
     |       |
@@ -11,34 +11,22 @@
     |
     +-- .tab-content
         |
-        +-- tab-pane (array)
+        +-- tab-pane (about me)
         |   |
-        |   +---+
-        |   |   |
-        |   |   +-- title
-        |   |   |
-        |   |   +-- content
+        |   +-- (multiple)
         |   |
-        |   +---+
-        |       |
-        |       +-- title
-        |       |
-        |       +-- content
+        |   +-- title
+        |   |
+        |   +-- content
         |
         |
-        +-- tab-pane (array)
+        +-- tab-pane (portfolio)
             |
-            +---+
-            |   |
-            |   +-- title
-            |   |
-            |   +-- content
+            +-- (multiple)
             |
-            +---+
-                |
-                +-- title
-                |
-                +-- content
+            +-- title
+            |
+            +-- content
 */
 
 
@@ -120,12 +108,12 @@
 }
 
 .tab-content > .tab-pane > .content > .paragraph {
-    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 85%;
     text-indent: 1em;
     padding-bottom: 0px;
 }
 
+/* page relevant */
 /* ABOUT ME page */
 /* basic info */
 .basic-info-title {
@@ -140,7 +128,6 @@
 /* skills */
 .skill-bar{
     padding: 10px 14px;
-    /* background: #495057; */
 }
 
 .skill-bar .row{
@@ -288,7 +275,7 @@
 } */
 
 /* story part in RESUME */
-#story{
+/* #story{
     display: flex;
     flex-direction: column;
 
@@ -328,7 +315,7 @@
 }
 
 /* chinese story in RESUME */
-#chinese-story{
+/*#chinese-story{
     display: flex;
     flex-direction: column;
 
@@ -397,7 +384,7 @@ small{
     background: darkslateblue;
     border-radius: 50%;
     left: -4px;
-}
+} */
 
 
 
