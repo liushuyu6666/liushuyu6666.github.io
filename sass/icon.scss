@@ -3,8 +3,8 @@
 
 @mixin icon-properties($background-image) {
   display: inline-block;
-  width: 23px;
-  height: 23px;
+  width: 35px;
+  height: 35px;
   background: url("#{$background-image}");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -152,6 +152,34 @@
 
 .icon-jwt {
   @include icon-properties("https://api.iconify.design/logos/jwt.svg");
+}
+
+.icon-jira {
+  @include icon-properties("https://api.iconify.design/devicon/jira-wordmark.svg");
+}
+
+.icon-colab {
+  @include icon-properties("https://api.iconify.design/simple-icons/googlecolab.svg?color=%23F9AB00");
+}
+
+.icon-python {
+  @include icon-properties("https://api.iconify.design/devicon/python-wordmark.svg");
+}
+
+.icon-jupyter {
+  @include icon-properties("https://api.iconify.design/logos/jupyter.svg");
+}
+
+.icon-numpy {
+  @include icon-properties("https://api.iconify.design/logos/numpy.svg");
+}
+
+.icon-pytorch {
+  @include icon-properties("https://api.iconify.design/devicon/pytorch-wordmark.svg");
+}
+
+.icon-tensorflow {
+  @include icon-properties("https://api.iconify.design/devicon/tensorflow.svg");
 }
 
 

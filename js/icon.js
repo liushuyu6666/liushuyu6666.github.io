@@ -29,6 +29,14 @@ addTechStack("tech-stack-3", [
   "jwt"
 ]);
 
+addTechStack("tech-stack-4", [
+  "python",
+  "colab",
+  "jupyter",
+  "pytorch",
+  "tensorflow"
+]);
+
 addTechStack("story-tech-stack-1", [
   "ts",
   "apollo",
@@ -38,7 +46,8 @@ addTechStack("story-tech-stack-1", [
   "graphql",
   "nodejs",
   "reactjs",
-  "nextjs"
+  "nextjs",
+  "jira"
 ]);
 
 addTechStack("story-tech-stack-2", [
@@ -98,6 +107,13 @@ function getTechStackMap(aliases) {
     webstorm: { msg: "Web storm", className: "icon-webstorm" },
     reduxjs: { msg: "Redux.Js", className: "icon-reduxjs" },
     jwt: { msg: "JWT", className: "icon-jwt" },
+    jira: { msg: "Jira", className: "icon-jira" },
+    colab: { msg: "Colab", className: "icon-colab" },
+    python: { msg: "python", className: "icon-python" },
+    jupyter: { msg: "jupyter", className: "icon-jupyter" },
+    numpy: { msg: "numpy", className: "icon-numpy" },
+    pytorch: { msg: "pytorch", className: "icon-pytorch" },
+    tensorflow: { msg: "tensorflow", className: "icon-tensorflow" },
   };
   return aliases.map((alias) => json[alias]);
 }

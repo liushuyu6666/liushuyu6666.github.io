@@ -17,6 +17,13 @@ insertPortfolioRow(
     "Jupiter_Restaurant_Frontend_Reactjs",
     "A SpringBoot project that sets up an Uber-Eat like online dining platform, with a focus on learning SpringBoot and Reactjs.",
     "tech-stack-3"
+);
+
+insertPortfolioRow(
+    "https://github.com/liushuyu6666/ML_Python",
+    "Machine Learning and Deep Learning",
+    "Customize MLP, CNN, RNN network to classify MNIST and CIFAR-10. Use VAE and GAN to generate new images base on CIFAR-10.",
+    "tech-stack-4"
 )
 
 function insertPortfolioRow(href, title, text, techStackId) {

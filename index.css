@@ -207,7 +207,7 @@
 
 .portfolio-bar > .row {
   margin-top: 0px;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
   margin-left: 3px;
 }
 
@@ -219,21 +219,21 @@
 }
 
 .portfolio-bar > .row > .portfolio-card > .portfolio-title {
-  font-size: 90%;
+  font-size: 120%;
   color: #370617;
 }
 
 .portfolio-bar > .row > .portfolio-card > .portfolio-description {
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 75%;
+  font-size: 95%;
   text-indent: 1em;
 }
 
 .portfolio-bar > .row > .portfolio-card > .portfolio-tech-stack {
-  font-size: 80%;
+  font-size: 100%;
   display: grid;
-  grid-template-columns: 80px repeat(auto-fit, 30px);
+  grid-template-columns: 100px repeat(auto-fit, 45px);
   grid-template-areas: "header .";
 }
 

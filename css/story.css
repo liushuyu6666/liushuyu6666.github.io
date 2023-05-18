@@ -128,12 +128,14 @@
   margin-top: 7px;
   font-size: 80%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 30px);
+  grid-template-columns: repeat(auto-fit, 45px);
+  grid-template-rows: 45px;
   grid-template-areas: "header .";
 }
 
 .story-tech-stack-header {
-  grid-area: 1/1/2/4;
+  grid-area: 1/1/2/3;
+  place-self: center;
 }
 
 /*********************/
