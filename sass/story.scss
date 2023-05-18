@@ -1,6 +1,6 @@
 // globe variable
 $story-section-length: 8;
-$story-line-length: $story-section-length - 2;
+$story-line-length: $story-section-length;
 $story-job-length: 2; // 4 * i - 1 <= $story-section-length + 1
 $story-school-length: 2; // 4 * i + 1 <= $story-section-length + 1
 
@@ -41,7 +41,7 @@ $story-school-length: 2; // 4 * i + 1 <= $story-section-length + 1
   border-left: 1px #582f0e solid;
 }
 
-@for $row from 1 through $story-line-length {
+@for $row from 2 through $story-line-length {
   $next: $row + 1;
   .story-line-left-#{$row} {
     @include story-line-left(#{$row}, #{$next});
