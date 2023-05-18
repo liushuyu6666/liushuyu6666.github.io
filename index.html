@@ -110,15 +110,15 @@
           <div class="title">Experience</div>
           <div class="content">
             <div class="story" id="story">
-              <!-- story line -->
-              <!-- story card -->
+              <!-- story line defined in js/story.js and sass/story.scss -->
+              <!-- story card defined in js/story.js and sass/story.scss -->
             </div>
           </div>
 
           <div class="title">Skills</div>
           <div class="content">
             <div class="container skill-bar" id="skill-bar">
-              <!-- skill bar -->
+              <!-- skill bar defined in js/skill.js -->
             </div>
           </div>
 
@@ -173,48 +173,15 @@
 
           <div class="title">Portfolio</div>
           <div class="content">
-            <div class="container portfolio-bar">
-              <div class="row">
-                <div class="col-md-12 col-sm-12 portfolio-card">
-                  <a
-                    class="portfolio-title"
-                    href="https://github.com/liushuyu6666/GitTool_TypeScript"
-                  >
-                    GitTool_TypeScript
-                  </a>
-                  <div class="portfolio-description">
-                    This application decrypts all Git objects to observe file
-                    changes along the commit timeline.
-                  </div>
-                  <div class="portfolio-tech-stack" id="tech-stack-1">
-                    <b class="header">tech stack:</b>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 col-sm-12 portfolio-card">
-                  <a
-                    class="portfolio-title"
-                    href="https://github.com/liushuyu6666/SpringBoot_Jupiter_Restaurant_Backend"
-                  >
-                    SpringBoot_Jupiter_Restaurant_Backend
-                  </a>
-                  <div class="portfolio-description">
-                    A SpringBoot project that sets up an Uber-Eat like online
-                    dining platform, with a focus on learning SpringBoot and
-                    Reactjs.
-                  </div>
-                  <div class="portfolio-tech-stack" id="tech-stack-2">
-                    <b class="header">tech stack:</b>
-                  </div>
-                </div>
-              </div>
+            <div class="container portfolio-bar" id="portfolio-bar">
+              <!-- portfolio-bar defined in js/portfolio.ts -->
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="js/story.js"></script>
+    <script type="text/javascript" src="js/story.js"></script> <!-- prior to the js/icon.js -->
+    <script type="text/javascript" src="js/portfolio.js"></script> <!-- prior to the js/icon.js -->
     <script type="text/javascript" src="js/icon.js"></script>
     <script type="text/javascript" src="js/skill.js"></script>
   </body>
