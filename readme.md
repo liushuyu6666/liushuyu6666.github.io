@@ -36,7 +36,7 @@ The CSS grid layout for the experience timeline is structured as an 8-row by 6-c
 
 * The variable `$story-section-length` in the `sass/story.scss` represents the number of rows in the grid layout, currently set to 8. The timeline length should be 6 rows.
 
-* The `story-line` define the length of the timeline by `$story-line-length` in the `sass/story.scss`. Please note that the value will automatically adjust based on the `$story-section-length` variable. There is no need for manual modification.
+* The `story-line` starts from row 2 and ends at the `$story-line-length` in the `sass/story.scss`. Please note that the value will automatically adjust based on the `$story-section-length` variable. There is no need for manual modification.
   * The `story-line` consists of two parts, `.story-line-left-x` and `.story-line-right-x`.
 
 * The `story-job-card` (a.k.a `story-card-left`) starts at row `4*i - 3` and ends at row `4*i - 1`, where `i` represents the card number (a.k.a `$story-job-length` in the `sass/story.scss`).
