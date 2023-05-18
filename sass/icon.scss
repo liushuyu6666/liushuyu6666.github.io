@@ -142,4 +142,16 @@
   @include icon-properties("https://api.iconify.design/logos/apache.svg");
 }
 
+.icon-webstorm {
+  @include icon-properties("https://api.iconify.design/logos/webstorm.svg");
+}
+
+.icon-reduxjs {
+  @include icon-properties("https://api.iconify.design/logos/redux.svg");
+}
+
+.icon-jwt {
+  @include icon-properties("https://api.iconify.design/logos/jwt.svg");
+}
+
 

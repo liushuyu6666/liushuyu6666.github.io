@@ -17,6 +17,16 @@ addTechStack("tech-stack-2", [
   "gradle",
   "awss3",
   "awsec2",
+  "jwt"
+]);
+
+addTechStack("tech-stack-3", [
+  "js",
+  "github",
+  "reactjs",
+  "webstorm",
+  "reduxjs",
+  "jwt"
 ]);
 
 addTechStack("story-tech-stack-1", [
@@ -85,6 +95,9 @@ function getTechStackMap(aliases) {
     tomcat: { msg: "Tomcat", className: "icon-tomcat" },
     redhat: { msg: "Red Hat", className: "icon-redhat" },
     apache: { msg: "Apache", className: "icon-apache" },
+    webstorm: { msg: "Web storm", className: "icon-webstorm" },
+    reduxjs: { msg: "Redux.Js", className: "icon-reduxjs" },
+    jwt: { msg: "JWT", className: "icon-jwt" },
   };
   return aliases.map((alias) => json[alias]);
 }

@@ -24,9 +24,10 @@
 1. Go to [iconify](https://icon-sets.iconify.design/) to search icons.
 2. Select `HTML`, then `CSS` tab under the icon image, then the url will appear.
 3. Copy the url and paste it to `sass/icon.scss` file using the same format.
-4. Go to `js/icon.js` file and add the new icon data in the `getTechStackMap` function.
-5. Then you can use it in the `addTechStack` function.
-6. Additionally, other sections require the use of icons:
+4. **Don't forget to compile the `.scss` file**.
+5. Go to `js/icon.js` file and add the new icon data in the `getTechStackMap` function.
+6. Then you can use it in the `addTechStack` function.
+7. Additionally, other sections require the use of icons:
    *  portfolio: `js/portfolio.js`.
    *  story: `js/story.js`.
 
@@ -74,3 +75,10 @@ Instead of editing the `index.html` file directly, please use the `insertPortfol
 
 ## Add more skill bar
 Instead of editing the `index.html` file directly, please use the `insertSkillRow` function in `js/skill.js` to dynamically generate the portfolio HTML snippet. Each row needs exact three components.
+
+
+## Pay Attention
+1. **Don't forget to compile the icon.scss**
+   ```bash
+   sass --watch sass/icon.scss css/icon.css 
+   ```

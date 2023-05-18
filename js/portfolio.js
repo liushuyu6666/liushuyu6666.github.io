@@ -6,10 +6,17 @@ insertPortfolioRow(
 );
 
 insertPortfolioRow(
-    "https://github.com/liushuyu6666/SpringBoot_Jupiter_Restaurant_Backend",
-    "SpringBoot_Jupiter_Restaurant_Backend",
+    "https://github.com/liushuyu6666/Jupiter_Restaurant_Backend_SpringBoot",
+    "Jupiter_Restaurant_Backend_SpringBoot",
     "A SpringBoot project that sets up an Uber-Eat like online dining platform, with a focus on learning SpringBoot and Reactjs.",
     "tech-stack-2"
+);
+
+insertPortfolioRow(
+    "https://github.com/liushuyu6666/Jupiter_Restaurant_Frontend_Reactjs",
+    "Jupiter_Restaurant_Frontend_Reactjs",
+    "A SpringBoot project that sets up an Uber-Eat like online dining platform, with a focus on learning SpringBoot and Reactjs.",
+    "tech-stack-3"
 )
 
 function insertPortfolioRow(href, title, text, techStackId) {

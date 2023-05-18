@@ -319,4 +319,37 @@
   align-self: center;
 }
 
+.icon-webstorm {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/logos/webstorm.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-reduxjs {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/logos/redux.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-jwt {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/logos/jwt.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
 /*# sourceMappingURL=icon.css.map */
