@@ -1,13 +1,14 @@
 // globe variable
-$story-line-length: 10;
-$story-job-length: 3;
-$story-school-length: 3;
+$story-section-length: 8;
+$story-line-length: $story-section-length - 2;
+$story-job-length: 2; // 4 * i - 1 <= $story-section-length + 1
+$story-school-length: 2; // 4 * i + 1 <= $story-section-length + 1
 
 /* experience */
 .story {
   display: grid;
   grid-template-columns: 1.5fr 8fr 0.5fr 0.5fr 8fr 1.5fr;
-  grid-template-rows: repeat(8, 60px);
+  grid-template-rows: repeat(#{$story-section-length}, 60px);
 }
 
 /* story dot */

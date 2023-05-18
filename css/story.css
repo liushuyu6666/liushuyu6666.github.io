@@ -87,46 +87,6 @@
   border-left: 1px #582f0e solid;
 }
 
-.story-line-left-7 {
-  grid-area: 7/3/8/4;
-  border-right: 1px #582f0e solid;
-}
-
-.story-line-right-7 {
-  grid-area: 7/4/8/5;
-  border-left: 1px #582f0e solid;
-}
-
-.story-line-left-8 {
-  grid-area: 8/3/9/4;
-  border-right: 1px #582f0e solid;
-}
-
-.story-line-right-8 {
-  grid-area: 8/4/9/5;
-  border-left: 1px #582f0e solid;
-}
-
-.story-line-left-9 {
-  grid-area: 9/3/10/4;
-  border-right: 1px #582f0e solid;
-}
-
-.story-line-right-9 {
-  grid-area: 9/4/10/5;
-  border-left: 1px #582f0e solid;
-}
-
-.story-line-left-10 {
-  grid-area: 10/3/11/4;
-  border-right: 1px #582f0e solid;
-}
-
-.story-line-right-10 {
-  grid-area: 10/4/11/5;
-  border-left: 1px #582f0e solid;
-}
-
 /*********************/
 /* story-job-card */
 /*********************/
@@ -140,12 +100,6 @@
   padding-top: 5px;
   padding-bottom: 10px;
   grid-area: 5/2/7/3;
-}
-
-.story-card-left-9 {
-  padding-top: 5px;
-  padding-bottom: 10px;
-  grid-area: 9/2/11/3;
 }
 
 .story-job-title {
@@ -185,12 +139,6 @@
   padding-top: 5px;
   padding-bottom: 10px;
   grid-area: 7/5/9/6;
-}
-
-.story-card-right-11 {
-  padding-top: 5px;
-  padding-bottom: 10px;
-  grid-area: 11/5/13/6;
 }
 
 .story-school-title {
