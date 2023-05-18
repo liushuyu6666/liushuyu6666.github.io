@@ -26,8 +26,11 @@
 3. Copy the url and paste it to `sass/icon.scss` file using the same format.
 4. Go to `js/icon.js` file and add the new icon data in the `getTechStackMap` function.
 5. Then you can use it in the `addTechStack` function.
+6. Additionally, other sections require the use of icons:
+   *  portfolio: `js/portfolio.js`.
+   *  story: `js/story.js`.
 
-## Expand Experience Section
+## Expand Experience Section (Story section)
 All code in the experience section is dynamically generated. The CSS file `css/story.css` is generated from `sass/story.scss`, and the HTML file is generated from `js/story.js`. To make changes, modify `sass/story.scss` and `js/story.js`, rather than editing `index.html` directly.
 
 ### In `sass/story.scss`:
@@ -41,6 +44,8 @@ The CSS grid layout for the experience timeline is structured as an 8-row by 6-c
 
 * The `story-job-card` (a.k.a `story-card-left`) starts at row `4*i - 3` and ends at row `4*i - 1`, where `i` represents the card number (a.k.a `$story-job-length` in the `sass/story.scss`).
   * The numerical suffix in the class name `.story-card-left-1` within the `css/story.css` file indicates the starting line of the job card, note that the number is not sequential.
+  * Generate a tech stack ID and append more tech stack icons through `js/icon.js`.
+  * To add more icons, please go to the "Add more icons" sections.
   
 * The `story-school-card` (a.k.a `story-card-right`) starts at row `4*i - 1` and ends at row `4*i + 1`, where `i` represents the card number(a.k.a `$story-school-length` in the `.sass/story.scss`).
   * The numerical suffix in the class name `.story-card-right-3` within the `css/story.css` file indicates the starting line of the school card, note that the number starts from 3 and is not sequential.
@@ -61,3 +66,11 @@ This file generates `html` code snippet and appends it to the `<div class="story
 * In order to expand the experience timeline:
   1. Adjust variables in the `sass/story.scss` first.
   2. Add more functions for adding additional story timeline components and cards.
+
+## Add more portfolios
+Instead of editing the `index.html` file directly, please use the `insertPortfolioRow` function in `js/portfolio.js` to dynamically generate the portfolio HTML snippet.
+* Generate a tech stack ID and append more tech stack icons through `js/icon.js`.
+* To add more icons, please go to the "Add more icons" sections.
+
+## Add more skill bar
+Instead of editing the `index.html` file directly, please use the `insertSkillRow` function in `js/skill.js` to dynamically generate the portfolio HTML snippet. Each row needs exact three components.
