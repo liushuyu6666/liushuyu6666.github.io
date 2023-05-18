@@ -1,17 +1,12 @@
-@mixin story-line-left($row) {
-  grid-area: #{$row} / 3 / #{$row + 1} / 4;
-  border-right: 1px #582f0e solid;
-}
-
-@mixin story-line-right($row) {
-  grid-area: #{$row} / 4 / #{$row + 1} / 5;
-  border-left: 1px #582f0e solid;
-}
+// globe variable
+$story-line-length: 10;
+$story-job-length: 3;
+$story-school-length: 3;
 
 /* experience */
 .story {
   display: grid;
-  grid-template-columns: 2fr 7fr 1fr 1fr 8fr 1fr;
+  grid-template-columns: 1.5fr 8fr 0.5fr 0.5fr 8fr 1.5fr;
   grid-template-rows: repeat(8, 60px);
 }
 
@@ -28,32 +23,54 @@
   border-radius: 50%;
   right: -5px;
 }
-
-// story-line
-.story-line-left-2 {
-  @include story-line-left(2);
+.end-story-dot {
+  grid-area: 8 / 3 / 9 / 4;
 }
 
-.story-line-right-2 {
-  @include story-line-right(2);
+/*********************/
+/* story-line        */
+/*********************/
+@mixin story-line-left($row, $next) {
+  grid-area: #{$row} / 3 / #{$next} / 4;
+  border-right: 1px #582f0e solid;
 }
 
-// story-card
-@mixin story-card-left($row) {
+@mixin story-line-right($row, $next) {
+  grid-area: #{$row} / 4 / #{$next} / 5;
+  border-left: 1px #582f0e solid;
+}
+
+@for $row from 1 through $story-line-length {
+  $next: $row + 1;
+  .story-line-left-#{$row} {
+    @include story-line-left(#{$row}, #{$next});
+  }
+
+  .story-line-right-#{$row} {
+    @include story-line-right(#{$row}, #{$next});
+  }
+}
+
+/*********************/
+/* story-job-card */
+/*********************/
+@mixin story-card-left($row, $next) {
   padding-top: 5px;
-  grid-area: #{$row} / 2 / #{$row + 2} / 3;
-  border: 3px black solid;
+  padding-bottom: 10px;
+  grid-area: #{$row} / 2 / #{$next} / 3;
 }
 
-@mixin story-card-right($row) {
-  grid-area: #{$row} / 5 / #{$row + 2} / 6;
+@for $order from 1 through $story-job-length {
+  $row: ($order - 1) * 4 + 1;
+  $next: $row + 2;
+  .story-card-left-#{$row} {
+    @include story-card-left(#{$row}, #{$next});
+  }
 }
 
-.story-card-left-1 {
-  @include story-card-left(1);
-}
-
+// story-card: job components
 .story-job-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 110%;
   text-align: right;
 }
@@ -65,8 +82,61 @@
 
 .story-tech-stack {
   margin-left: 5px;
+  margin-top: 7px;
   font-size: 80%;
   display: grid;
-  grid-template-columns: 80px repeat(auto-fit, 30px);
+  grid-template-columns: repeat(auto-fit, 30px);
   grid-template-areas: "header .";
+}
+
+.story-tech-stack-header {
+  grid-area: 1 / 1 / 2 / 4;
+}
+
+/*********************/
+/* story-school-card */
+/*********************/
+@mixin story-card-right($row, $next) {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  grid-area: #{$row} / 5 / #{$next} / 6;
+}
+
+@for $order from 1 through $story-school-length {
+  $row: ($order - 1) * 4 + 3;
+  $next: $row + 2;
+  .story-card-right-#{$row} {
+    @include story-card-right(#{$row}, #{$next});
+  }
+}
+
+.story-school-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 110%;
+  text-align: left;
+}
+
+.story-school-time-and-degree {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "time degree";
+}
+
+.story-school-time {
+  font-size: 90%;
+  grid-area: time;
+  text-align: left;
+  justify-self: left;
+}
+
+.story-school-degree {
+  font-size: 90%;
+  grid-area: degree;
+  text-align: left;
+  justify-self: right;
+}
+
+.story-school-major {
+  font-size: 100%;
+  text-align: left;
 }

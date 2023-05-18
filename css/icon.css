@@ -154,4 +154,169 @@
   align-self: center;
 }
 
+.icon-apollo {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/simple-icons/apollographql.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-circleci {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/devicon-plain/circleci-wordmark.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-graphql {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/vscode-icons/file-type-graphql.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-reactjs {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/vscode-icons/file-type-reactjs.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-nextjs {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/devicon/nextjs-wordmark.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-nodejs {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/logos/nodejs.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-sqlserver {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/devicon-plain/microsoftsqlserver-wordmark.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-oracle {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/logos/oracle.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-js {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/logos/javascript.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-html {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/logos/html-5.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-css {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/logos/css-3.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-sass {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/skill-icons/sass.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-tomcat {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/devicon/tomcat-wordmark.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-redhat {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/devicon/redhat-wordmark.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
+.icon-apache {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url("https://api.iconify.design/logos/apache.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-self: center;
+  align-self: center;
+}
+
 /*# sourceMappingURL=icon.css.map */

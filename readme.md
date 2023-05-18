@@ -25,4 +25,4 @@
 2. Select `HTML`, then `CSS` tab under the icon image, then the url will appear.
 3. Copy the url and paste it to `sass/icon.scss` file using the same format.
 4. Go to `js/icon.js` file and add the new icon data in the `getTechStackMap` function.
-5. Then you can use it.
+5. Then you can use it in the `addTechStack` function.

@@ -47,7 +47,7 @@
   flex: 0.7;
   background: #e7bc91;
   color: #583101;
-  font-size: 80%;
+  font-size: 85%;
   box-sizing: border-box;
   box-shadow: 10px 5px 5px #583101;
 }
@@ -94,7 +94,7 @@
 }
 
 .tab-content > .tab-pane > .title {
-  font-size: 100%;
+  font-size: 140%;
   font-weight: bold;
   box-sizing: border-box;
   padding: 10px 14px;
@@ -107,7 +107,7 @@
 }
 
 .tab-content > .tab-pane > .content > .paragraph {
-  font-size: 85%;
+  font-size: 100%;
   text-indent: 1em;
   padding-bottom: 0px;
 }
@@ -116,12 +116,12 @@
 /* ABOUT ME page */
 /* basic info */
 .basic-info-title {
-  font-size: 70%;
+  font-size: 100%;
   font-weight: bold;
 }
 
 .basic-info-content {
-  font-size: 85%;
+  font-size: 95%;
 }
 
 /* skills */

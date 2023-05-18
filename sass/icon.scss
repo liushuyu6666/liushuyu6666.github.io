@@ -82,4 +82,64 @@
   @include icon-properties("https://api.iconify.design/logos/aws-ec2.svg");
 }
 
+.icon-apollo {
+  @include icon-properties("https://api.iconify.design/simple-icons/apollographql.svg");
+}
+
+.icon-circleci {
+  @include icon-properties("https://api.iconify.design/devicon-plain/circleci-wordmark.svg");
+}
+
+.icon-graphql {
+  @include icon-properties("https://api.iconify.design/vscode-icons/file-type-graphql.svg");
+}
+
+.icon-reactjs {
+  @include icon-properties("https://api.iconify.design/vscode-icons/file-type-reactjs.svg");
+}
+
+.icon-nextjs {
+  @include icon-properties("https://api.iconify.design/devicon/nextjs-wordmark.svg");
+}
+
+.icon-nodejs {
+  @include icon-properties("https://api.iconify.design/logos/nodejs.svg");
+}
+
+.icon-sqlserver {
+  @include icon-properties("https://api.iconify.design/devicon-plain/microsoftsqlserver-wordmark.svg");
+}
+
+.icon-oracle {
+  @include icon-properties("https://api.iconify.design/logos/oracle.svg");
+}
+
+.icon-js {
+  @include icon-properties("https://api.iconify.design/logos/javascript.svg");
+}
+
+.icon-html {
+  @include icon-properties("https://api.iconify.design/logos/html-5.svg");
+}
+
+.icon-css {
+  @include icon-properties("https://api.iconify.design/logos/css-3.svg");
+}
+
+.icon-sass {
+  @include icon-properties("https://api.iconify.design/skill-icons/sass.svg");
+}
+
+.icon-tomcat {
+  @include icon-properties("https://api.iconify.design/devicon/tomcat-wordmark.svg");
+}
+
+.icon-redhat {
+  @include icon-properties("https://api.iconify.design/devicon/redhat-wordmark.svg");
+}
+
+.icon-apache {
+  @include icon-properties("https://api.iconify.design/logos/apache.svg");
+}
+
 

@@ -1,32 +1,52 @@
-addTechStack(
-  "tech-stack-1",
-  getTechStackMap([
-    "ts",
-    "json",
-    "github",
-    "vscode",
-    "mongodb",
-    "jest",
-    "mysql",
-  ])
-);
+addTechStack("tech-stack-1", [
+  "ts",
+  "json",
+  "github",
+  "vscode",
+  "mongodb",
+  "jest",
+  "mysql",
+]);
 
-addTechStack(
-  "tech-stack-2",
-  getTechStackMap([
-    "java",
-    "json",
-    "github",
-    "springboot",
-    "intellij",
-    "gradle",
-    "awss3",
-    "awsec2"
-  ])
-);
+addTechStack("tech-stack-2", [
+  "java",
+  "json",
+  "github",
+  "springboot",
+  "intellij",
+  "gradle",
+  "awss3",
+  "awsec2",
+]);
 
-function addTechStack(id, icons) {
+addTechStack("story-tech-stack-1", [
+  "ts",
+  "apollo",
+  "github",
+  "vscode",
+  "circleci",
+  "graphql",
+  "nodejs",
+  "reactjs",
+  "nextjs"
+]);
+
+addTechStack("story-tech-stack-2", [
+  "mysql",
+  "sqlserver",
+  "oracle",
+  "js",
+  "html",
+  "css",
+  "sass",
+  "tomcat",
+  "redhat",
+  "apache"
+]);
+
+function addTechStack(id, aliases) {
   const techStack = document.getElementById(id);
+  icons = getTechStackMap(aliases);
   icons.forEach((icon) => {
     const span = document.createElement("span");
     span.title = icon.msg;
@@ -50,6 +70,21 @@ function getTechStackMap(aliases) {
     vscode: { msg: "VS Code", className: "icon-vscode" },
     mysql: { msg: "mySQL", className: "icon-mysql" },
     awsec2: { msg: "AWS EC2", className: "icon-awsec2" },
+    apollo: { msg: "Apollo Graphql", className: "icon-apollo" },
+    circleci: { msg: "Circle CI", className: "icon-circleci" },
+    graphql: { msg: "Graph QL", className: "icon-graphql" },
+    nodejs: { msg: "Node.Js", className: "icon-nodejs" },
+    reactjs: { msg: "React.Js", className: "icon-reactjs" },
+    nextjs: { msg: "Next.Js", className: "icon-nextjs" },
+    sqlserver: { msg: "SQL Server", className: "icon-sqlserver" },
+    oracle: { msg: "ORACLE", className: "icon-oracle" },
+    js: { msg: "JavaScript", className: "icon-js" },
+    html: { msg: "HTML 5", className: "icon-html" },
+    css: { msg: "CSS 3", className: "icon-css" },
+    sass: { msg: "SASS", className: "icon-sass" },
+    tomcat: { msg: "Tomcat", className: "icon-tomcat" },
+    redhat: { msg: "Red Hat", className: "icon-redhat" },
+    apache: { msg: "Apache", className: "icon-apache" },
   };
   return aliases.map((alias) => json[alias]);
 }
